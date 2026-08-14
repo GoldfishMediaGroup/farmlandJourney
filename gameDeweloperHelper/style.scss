@@ -108,7 +108,7 @@
     width: pxToRemMix(1367);
     aspect-ratio: 16/9;
     background: rgb(85, 87, 84) !important;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', 'Montserrat', 'Century Gothic', 'Futura', sans-serif;
     font-weight: 700;
     color: #fff;
     @include small-tablet {
@@ -139,6 +139,13 @@
     z-index: 1110;
     width: pxToRemMix(50);
     font-size: pxToRemMix(24);
+    & svg {
+      width: pxToRemMix(21);
+      aspect-ratio: 1;
+      @include small-tablet {
+        width: pxToRemMix(13);
+      }
+    }
     @include small-tablet {
       top: pxToRemMix(12);
       right: pxToRemMix(12);
@@ -219,6 +226,7 @@
     margin: 0;
     flex-grow: 1;
     font-size: pxToRemMix(45);
+    line-height: normal;
     &--center {
       @include small-tablet {
         text-align: center;
@@ -226,6 +234,7 @@
     }
     @include small-tablet {
       font-size: pxToRemMix(14);
+      line-height: unset;
     }
   }
 
@@ -342,12 +351,12 @@
   }
 
   &__img {
-    width: pxToRemMix(60);
+    width: pxToRemMix(80);
     aspect-ratio: 1;
     object-fit: contain;
 
     @include small-tablet {
-      width: pxToRemMix(30);
+      width: pxToRemMix(40);
     }
   }
 
@@ -403,9 +412,9 @@
 
   &__img {
     aspect-ratio: 1;
-    width: pxToRemMix(60);
+    width: pxToRemMix(80);
     @include small-tablet {
-      width: pxToRemMix(30);
+      width: pxToRemMix(40);
     }
   }
 }
@@ -468,107 +477,6 @@
       }
     }
   }
-  // &__img {
-  //   position: absolute;
-  //   width: 174px;
-  //   aspect-ratio: 1;
-  //   top: 0;
-  //   transform: translateY(-82%);
-  //   & img {
-  //     width: 100%;
-  //     height: 100%;
-  //     object-fit: cover;
-  //   }
-  // }
-
-  // &__content {
-  //   transition: scale 0.4s ease;
-  //   // transform: translateY(-20%);
-  //   position: relative;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 12px;
-  //   scale: 0.9;
-  // }
-
-  // &__body {
-  //   border-radius: 5px;
-  //   width: 164px;
-  //   padding: 24px 6px 6px;
-  //   background: rgba(255, 255, 255, 0.7);
-  // }
-  // &__body-inner {
-  //   border-radius: 5px;
-  //   padding: 12px 14px 9px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 6px;
-  //   align-items: center;
-  //   text-align: center;
-  //   background: white;
-  //   color: #163f26;
-  // }
-
-  // &__subtitle {
-  //   font-weight: 500;
-  //   font-size: 7px;
-  // }
-
-  // &__title {
-  //   font-weight: 700;
-  //   font-size: 14px;
-  // }
-
-  // &__result {
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 3px;
-  // }
-
-  // &__result-title {
-  //   font-weight: 500;
-  //   font-size: 7px;
-  // }
-
-  // &__counter {
-  //   display: flex;
-  //   gap: 10px;
-  // }
-
-  // &__end {
-  //   width: 176px;
-  //   display: flex;
-  //   align-items: center;
-  // }
-  // &__end-img {
-  //   position: absolute;
-  //   border-radius: 6px;
-  //   width: 37px;
-  //   height: 34px;
-  //   left: 0;
-  //   & img {
-  //     width: 100%;
-  //     height: 100%;
-  //     display: block;
-  //   }
-  // }
-
-  // &__end-text {
-  //   border: 0.25px solid #fff;
-  //   border-radius: 6px;
-  //   padding: 8px 15px;
-  //   background: rgba(78, 129, 42, 0.6);
-  //   font-weight: 500;
-  //   font-size: 8px;
-  //   line-height: 110%;
-  //   color: #fff;
-  //   padding-left: 55px;
-  //   width: 100%;
-  // }
-  // & .btn--green {
-  //   box-sizing: border-box;
-  //   width: 176px;
-  // }
 
   // .ending-overlay__content
 
@@ -659,7 +567,7 @@
     font-size: pxToRemMix(15);
     font-weight: 500;
     @include small-tablet {
-      font-size: pxToRemMix(7);
+      font-size: pxToRemMix(9);
     }
   }
 
@@ -692,7 +600,7 @@
     font-size: pxToRemMix(15);
     font-weight: 500;
     @include small-tablet {
-      font-size: pxToRemMix(7);
+      font-size: pxToRemMix(9);
     }
   }
 
@@ -795,7 +703,7 @@
       border-radius: pxToRemMix(6);
       padding: pxToRemMix(8) pxToRemMix(15) pxToRemMix(8) pxToRemMix(50);
       width: 100%;
-      font-size: pxToRemMix(6);
+   font-size: pxToRemMix(8);
     }
   }
   & .btn--green {
