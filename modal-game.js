@@ -129,21 +129,21 @@ const SLIDES_CONFIG = [
     buttons: [
       {
         text: 'Осмотреть<br>растительность',
-        nextId: 'swamp-choise-1-res',
+        nextId: 'swamp-choice-1-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Поделиться угощением<br>с птицей',
-        nextId: 'swamp-choise-2-res',
+        nextId: 'swamp-choice-2-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Использовать треккинговую палку и навигацию',
-        nextId: 'swamp-choise-3-res',
+        nextId: 'swamp-choice-3-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
@@ -152,15 +152,15 @@ const SLIDES_CONFIG = [
     achiev: null
   },
 
-  // id: 'swamp-choise-1-res',
+  // id: 'swamp-choice-1-res',
   {
-    id: 'swamp-choise-1-res',
+    id: 'swamp-choice-1-res',
     text: 'Танти присматривается и замечает островки с густой осокой и порослью молодой сосны. Он знает, что это верный признак твердой почвы под ногами, и уверенно перебирается по ним на другой берег.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -171,15 +171,15 @@ const SLIDES_CONFIG = [
     achiev: ['survival']
   },
 
-  // id: 'swamp-choise-2-res',
+  // id: 'swamp-choice-2-res',
   {
-    id: 'swamp-choise-2-res',
+    id: 'swamp-choice-2-res',
     text: 'Танти кидает кусочек печенья вороне, сидящей на сухом бревне. Птица подхватывает угощение и перелетает на следующую кочку. Танти понимает: там, где спокойно садится крупная птица — земля точно выдержит, и аккуратно идет за ней.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -190,15 +190,15 @@ const SLIDES_CONFIG = [
     achiev: ['social', 'secret']
   },
 
-  // id: 'swamp-choise-3-res',
+  // id: 'swamp-choice-3-res',
   {
-    id: 'swamp-choise-3-res',
+    id: 'swamp-choice-3-res',
     text: 'Танти открывает на смартфоне спутниковую карту рельефа, чтобы наметить линию сухих отмелей, а каждый свой шаг осторожно прощупывает обычной треккинговой палкой. Грамотный маршрут и осторожность выводят его из топи.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -244,21 +244,21 @@ const SLIDES_CONFIG = [
     buttons: [
       {
         text: 'Использовать селфи-палку',
-        nextId: 'steppe-choise-1-res',
+        nextId: 'steppe-choice-1-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Найти степной муравейник',
-        nextId: 'steppe-choise-2-res',
+        nextId: 'steppe-choice-2-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Сыграть на губной гармошке',
-        nextId: 'steppe-choise-3-res',
+        nextId: 'steppe-choice-3-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
@@ -266,9 +266,9 @@ const SLIDES_CONFIG = [
     ],
     achiev: null
   },
-  // id: 'steppe-choise-1',
+  // id: 'steppe-choice-1',
   // {
-  //   id: 'steppe-choise-1',
+  //   id: 'steppe-choice-1',
   //   text: '',
   //   textCenter: true,
   //   image: `${URL_TO_ASSETS}/img/swamp-3.webp`,
@@ -283,21 +283,21 @@ const SLIDES_CONFIG = [
   //     },
   //     {
   //       text: 'Использовать',
-  //       nextId: 'steppe-choise-1-res',
+  //       nextId: 'steppe-choice-1-res',
   //       modifierClass: 'btn--green'
   //     }
   //   ],
   //   achiev: null
   // },
-  // id: 'steppe-choise-1-res',
+  // id: 'steppe-choice-1-res',
   {
-    id: 'steppe-choise-1-res',
+    id: 'steppe-choice-1-res',
     text: 'Танти присматривается и замечает островки с густой осокой и порослью молодой сосны. Он знает, что это верный признак твердой почвы под ногами, и уверенно перебирается по ним на другой берег.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -308,15 +308,15 @@ const SLIDES_CONFIG = [
     achiev: ['tehn', 'secret']
   },
 
-  // id: 'steppe-choise-2-res',
+  // id: 'steppe-choice-2-res',
   {
-    id: 'steppe-choise-2-res',
+    id: 'steppe-choice-2-res',
     text: 'Танти находит в траве крупный муравейник. Он помнит главное правило: южная сторона муравейника всегда более пологая. Поняв, где юг, он легко ориентируется на местности и выходит в нужном направлении.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -327,15 +327,15 @@ const SLIDES_CONFIG = [
     achiev: ['survival']
   },
 
-  // id: 'steppe-choise-3-res',
+  // id: 'steppe-choice-3-res',
   {
-    id: 'steppe-choise-3-res',
+    id: 'steppe-choice-3-res',
     text: 'Звонкая мелодия разносится далеко по степи. На звук из высокой травы выходит лохматая пастушья собака, которая виляет хвостом и с радостью выводит музыканта к натоптанной дороге.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -379,21 +379,21 @@ const SLIDES_CONFIG = [
     buttons: [
       {
         text: 'Довериться местным обитателям',
-        nextId: 'pass-choise-1-res',
+        nextId: 'pass-choice-1-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Использовать оптику смартфона',
-        nextId: 'pass-choise-2-res',
+        nextId: 'pass-choice-2-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
       },
       {
         text: 'Внимательно изучить камни',
-        nextId: 'pass-choise-3-res',
+        nextId: 'pass-choice-3-res',
         modifierClass: 'btn--img',
         btnImgDesc: `${URL_TO_ASSETS}/img/swamp-choices.webp`,
         btnImgMob: `${URL_TO_ASSETS}/img/swamp-choices--mob.webp`
@@ -402,15 +402,15 @@ const SLIDES_CONFIG = [
     achiev: null
   },
 
-  // id: 'pass-choise-1-res',
+  // id: 'pass-choice-1-res',
   {
-    id: 'pass-choise-1-res',
+    id: 'pass-choice-1-res',
     text: 'Танти замечает молодого горного козлика. Животные инстинктивно знают, какие камни не шатаются. Танти просто и аккуратно повторяет его маршрут, ступая след в след.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -421,15 +421,15 @@ const SLIDES_CONFIG = [
     achiev: ['social']
   },
 
-  // id: 'pass-choise-2-res',
+  // id: 'pass-choice-2-res',
   {
-    id: 'pass-choise-2-res',
+    id: 'pass-choice-2-res',
     text: 'Танти достает складную селфи-палку, закрепляет смартфон, поднимает его высоко над ковылем и делает пару снимков. На фото сверху отлично видна примятая трава, где проходит старая тропа. Маршрут найден!',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -440,15 +440,15 @@ const SLIDES_CONFIG = [
     achiev: ['tehn']
   },
 
-  // id: 'pass-choise-3-res',
+  // id: 'pass-choice-3-res',
   {
-    id: 'pass-choise-3-res',
+    id: 'pass-choice-3-res',
     text: 'На тех валунах, что лежат неподвижно годами, успел вырасти густой лишайник. Танти ступает только по замшелым камням, не тревожа свежую опасную осыпь.',
     textCenter: false,
-    image: `${URL_TO_ASSETS}/img/swamp-choise-1-res.webp`,
-    imageMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.webp`,
-    video: `${URL_TO_ASSETS}/img/swamp-choise-1-res.mp4`,
-    videoMob: `${URL_TO_ASSETS}/img/swamp-choise-1-res--mob.mp4`,
+    image: `${URL_TO_ASSETS}/img/swamp-choice-1-res.webp`,
+    imageMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.webp`,
+    video: `${URL_TO_ASSETS}/img/swamp-choice-1-res.mp4`,
+    videoMob: `${URL_TO_ASSETS}/img/swamp-choice-1-res--mob.mp4`,
     buttons: [
       {
         text: '',
@@ -719,10 +719,13 @@ function initGameEngine() {
           </svg>
         </div>`;
 
+      const isVideo = slide.video || slide.videoMob;
+      const video = isMobile ? slide.videoMob : slide.video;
+
       // ИСПРАВЛЕНО: preload="metadata" вместо preload="none"
-      const bg = slide.video
+      const bg = isVideo
         ? `<video width="100%" height="100%" preload="metadata" loop muted playsinline poster="${slide.image || ''}">
-          <source src="${slide.video}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+          <source src="${video}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
          </video>`
         : `<picture>
           ${slide.imageMob ? `<source srcset="${slide.imageMob}" media="(max-width: 768px)" />` : ''}
