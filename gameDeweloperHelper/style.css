@@ -197,6 +197,8 @@
   padding: calc(17 * 100vw / var(--wiepotrDeviseWith)) calc(38 * 100vw / var(--wiepotrDeviseWith));
   border-radius: calc(60 * 100vw / var(--wiepotrDeviseWith));
   background: linear-gradient(180deg, #459f07 0%, #193903 144.59%);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 @media (max-width: 48em) {
   .modal-game__container .btn--green {
@@ -286,7 +288,9 @@
   height: 100%;
   box-sizing: border-box;
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
+  gap: calc(20 * 100vw / var(--wiepotrDeviseWith));
+  flex-direction: column;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.8s;
@@ -320,6 +324,16 @@
   width: 100%;
   z-index: 2;
   gap: calc(20 * 100vw / var(--wiepotrDeviseWith));
+}
+.modal-game__container .slide__content--isDisclaimer {
+  flex-direction: row;
+  align-items: center;
+}
+@media (max-width: 48em) {
+  .modal-game__container .slide__content--isDisclaimer {
+    flex-direction: column;
+    gap: gap(8);
+  }
 }
 @media (max-width: 48em) {
   .modal-game__container .slide__content {
@@ -392,6 +406,7 @@
 }
 @media (max-width: 48em) {
   .modal-game__container .slide__btn-box {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: calc(10 * 100vw / var(--wiepotrDeviseWith));
@@ -420,6 +435,34 @@
     top: calc(60 * 100vw / var(--wiepotrDeviseWith));
     padding: calc(3 * 100vw / var(--wiepotrDeviseWith));
     border-radius: calc(12 * 100vw / var(--wiepotrDeviseWith));
+  }
+}
+.modal-game__container .slide__disclaimer-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: calc(8 * 100vw / var(--wiepotrDeviseWith));
+  gap: calc(13 * 100vw / var(--wiepotrDeviseWith));
+  position: relative;
+  z-index: 10;
+}
+.modal-game__container .slide__disclaimer-add {
+  font-size: calc(17 * 100vw / var(--wiepotrDeviseWith));
+}
+@media (max-width: 48em) {
+  .modal-game__container .slide__disclaimer-add {
+    font-size: calc(7 * 100vw / var(--wiepotrDeviseWith));
+  }
+}
+.modal-game__container .slide__disclaimer {
+  width: calc(1310 * 100vw / var(--wiepotrDeviseWith));
+  aspect-ratio: 1507/95;
+}
+@media (max-width: 48em) {
+  .modal-game__container .slide__disclaimer {
+    width: calc(325 * 100vw / var(--wiepotrDeviseWith));
+    aspect-ratio: 325/50;
   }
 }
 .modal-game__container .achiev-counter {
@@ -788,6 +831,8 @@
 }
 .modal-game__container .ending-overlay .btn--green {
   padding: calc(17 * 100vw / var(--wiepotrDeviseWith)) calc(103 * 100vw / var(--wiepotrDeviseWith));
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 @media (max-width: 48em) {
   .modal-game__container .ending-overlay .btn--green {
