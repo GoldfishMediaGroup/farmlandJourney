@@ -45,10 +45,10 @@
         <div class="header">
           <div class="h-top">
             <div class="container-fluid">
-              <div class="d-flex h-top__body p-y-10 p-xs-y-5 w-100">
+              <div class="d-flex p-xs-y-5 p-y-10 w-100 h-top__body">
                 <div class="d-flex h-top__col">
-                  <div class="ht-delivery flex-static">
-                    <a href="#delivery-method" class="htt-menu collapsed d-flex align-center" data-toggle="collapse">
+                  <div class="flex-static ht-delivery">
+                    <a href="#delivery-method" class="d-flex htt-menu collapsed align-center" data-toggle="collapse">
                       <div class="m-r-5">
                         <img src="wwwbackgroundimages/header-plus.svg" alt="" />
                       </div>
@@ -59,7 +59,7 @@
                         <a
                           href="#modal-delivery"
                           data-toggle="modal"
-                          class="htt-item--delivery htt-item link link-opacity m-xs-r-5"
+                          class="m-xs-r-5 htt-item--delivery htt-item link link-opacity"
                         >
                           Доставка
                         </a>
@@ -72,35 +72,35 @@
                     <a
                       href="#modal-choose-city"
                       data-toggle="modal"
-                      class="ht-address link link-opacity d-flex align-items-center overflow-hidden delivery-on"
+                      class="d-flex align-items-center overflow-hidden ht-address link link-opacity delivery-on"
                     >
                       <div class="m-r-5 ht-address__icon">
                         <img src="wwwbackgroundimages/header-location.svg" alt="" />
                       </div>
-                      <div class="hta-text flex-grow" style="margin-top: -1px">Уфа</div>
+                      <div class="flex-grow hta-text" style="margin-top: -1px">Уфа</div>
                     </a>
 
                     <a
                       href="#drugstore-modal"
                       data-toggle="modal"
-                      class="ht-address link link-opacity d-flex align-items-center overflow-hidden delivery-on hidden-sm-down"
+                      class="hidden-sm-down d-flex align-items-center overflow-hidden ht-address link link-opacity delivery-on"
                     >
                       <div class="m-r-5 ht-address__icon">
                         <img src="wwwbackgroundimages/header-plus.svg" alt="" />
                       </div>
-                      <div class="hta-text flex-grow">Выберите аптеку</div>
+                      <div class="flex-grow hta-text">Выберите аптеку</div>
                     </a>
                   </div>
                 </div>
-                <div class="flex-static h-top__col hidden-sm-down">
+                <div class="hidden-sm-down flex-static h-top__col">
                   <div class="d-flex align-items-center h-top__right">
-                    <a href="/s/check" class="header-link small-icon flex-static link link-opacity m-r-15 m-lg-r-20">
+                    <a href="/s/check" class="flex-static m-lg-r-20 m-r-15 header-link small-icon link link-opacity">
                       <div class="si-text">Статус заказа</div>
                     </a>
-                    <a href="/page/dostavka" class="header-link small-icon flex-static link link-opacity m-r-15 m-lg-r-20">
+                    <a href="/page/dostavka" class="flex-static m-lg-r-20 m-r-15 header-link small-icon link link-opacity">
                       <div class="si-text">Доставка и оплата</div>
                     </a>
-                    <a href="/page/apteki-na-karte" class="header-link small-icon flex-static link link-opacity m-r-15 m-lg-r-20">
+                    <a href="/page/apteki-na-karte" class="flex-static m-lg-r-20 m-r-15 header-link small-icon link link-opacity">
                       <div class="si-text">Наши аптеки</div>
                     </a>
                     <div class="short-phone">
@@ -116,7 +116,7 @@
             </div>
           </div>
 
-          <div class="h-actions hidden-sm-down">
+          <div class="hidden-sm-down h-actions">
             <div class="container-fluid">
               <div class="h-actions__body">
                 <div class="h-actions__row">
@@ -190,7 +190,7 @@
                   </div>
                 </div>
                 <div class="h-middle__col">
-                  <a href="#" class="hm-catalog show-catalog hidden-sm-down">
+                  <a href="#" class="hidden-sm-down hm-catalog show-catalog">
                     <div class="hmc-img">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                         <path
@@ -200,7 +200,7 @@
                     </div>
                     <div class="hmc-text">Каталог</div>
                   </a>
-                  <a href="#" class="hm-catalog show-sidebar-main hidden-md-up">
+                  <a href="#" class="hidden-md-up hm-catalog show-sidebar-main">
                     <div class="hmc-img">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                         <path
@@ -223,7 +223,7 @@
                         minlength="3"
                         required=""
                       />
-                      <button type="button" class="search-clear-btn hidden">
+                      <button type="button" class="hidden search-clear-btn">
                         <svg width="14" height="14"><use xlink:href="#i-close"></use></svg>
                       </button>
                       <button type="submit" class="btn link link-opacity">Найти</button>
@@ -262,7 +262,7 @@
                   <div class="search-backdrop"></div>
                 </div>
                 <div class="h-middle__col">
-                  <div class="d-flex align-items-center justify-content-end flex-grow">
+                  <div class="d-flex flex-grow align-items-center justify-content-end">
                     <a
                       href="/favorite"
                       class="hm-favorite"
@@ -286,16 +286,16 @@
         </div>
 
         <!-- Fixed header -->
-        <div class="fixed-header hidden-sm-down">
-          <div class="container-fluid h-100">
+        <div class="hidden-sm-down fixed-header">
+          <div class="h-100 container-fluid">
             <div class="d-flex align-items-center justify-content-between w-100 h-100">
-              <div class="fh-logotype m-r-15">
+              <div class="m-r-15 fh-logotype">
                 <a href="/">
                   <img src="wwwbackgroundimages/logo-internet.svg" alt="" />
                 </a>
               </div>
-              <div class="search-form search-form-mini flex-grow">
-                <form class="search-form-header fixed" action="/search" method="GET">
+              <div class="flex-grow search-form search-form-mini">
+                <form class="fixed search-form-header" action="/search" method="GET">
                   <input
                     type="text"
                     class="form-control"
@@ -307,17 +307,17 @@
                   />
                   <button type="submit" class="btn link link-opacity">Найти</button>
                 </form>
-                <div class="search-results fixed-results">
+                <div class="fixed-results search-results">
                   <div class="search-results__info">Выберите вариант или продолжите ввод</div>
-                  <div class="search-results__body fixed-search"></div>
+                  <div class="fixed-search search-results__body"></div>
                 </div>
               </div>
               <a
                 href="/favorite"
-                class="hb-btn hb-favorite link d-flex align-items-center justify-content-between flex-static m-l-10 p-x-10"
+                class="flex-static d-flex align-items-center justify-content-between m-l-10 p-x-10 hb-btn hb-favorite link"
               >
                 <div
-                  class="hbb-img flex-static bg-img-contain"
+                  class="flex-static bg-img-contain hbb-img"
                   style="background-image: url(wwwbackgroundimages/header-favorite.svg)"
                 >
                   <div class="favorite-link-count">0</div>
@@ -326,23 +326,23 @@
               <a
                 href="/user/login"
                 data-toggle="modal"
-                class="hb-btn hb-user link d-flex align-items-center justify-content-center flex-static m-l-10 m-r-10 hidden-sm-down"
+                class="hidden-sm-down flex-static d-flex align-items-center justify-content-center m-l-10 m-r-10 hb-btn hb-user link"
               >
                 <div
-                  class="hbb-img flex-static bg-img-contain"
+                  class="flex-static bg-img-contain hbb-img"
                   style="background-image: url(wwwbackgroundimages/header-person.svg)"
                 ></div>
-                <!-- <div class="hbb-text flex-grow hidden-md-down"></div> -->
+                <!-- <div class="hidden-md-down flex-grow hbb-text"></div> -->
               </a>
               <a
                 href="/cart"
-                class="hb-btn hb-cart link d-flex align-items-center justify-content-between flex-static hidden-sm-down"
+                class="hidden-sm-down flex-static d-flex align-items-center justify-content-between hb-btn hb-cart link"
               >
                 <div
-                  class="hbb-img flex-static bg-img-contain"
+                  class="flex-static bg-img-contain hbb-img"
                   style="background-image: url(wwwbackgroundimages/header-cart.svg)"
                 ></div>
-                <div class="hbb-text flex-grow hidden-md-down cart-total-price">0,00 ₽</div>
+                <div class="hidden-md-down flex-grow hbb-text cart-total-price">0,00 ₽</div>
                 <div class="hbb-count cart-total-count">0</div>
               </a>
             </div>
@@ -352,11 +352,11 @@
         <!-- Catalog -->
         <div class="container-fluid">
           <div class="position-relative">
-            <div class="catalog hidden-sm-down">
-              <div class="title m-b-20">Каталог товаров</div>
-              <div class="f-row no-gutters c-control-block">
-                <div class="f-col-md-3 d-flex">
-                  <div class="c-menu w-100">
+            <div class="hidden-sm-down catalog">
+              <div class="m-b-20 title">Каталог товаров</div>
+              <div class="c-control-block f-row no-gutters">
+                <div class="d-flex f-col-md-3">
+                  <div class="w-100 c-menu">
                     <ul>
                       <li>
                         <a href="/category/lekarstvennye-sredstva" data-sub="#submenu-2"><span>Лекарственные средства</span></a>
@@ -406,8 +406,8 @@
                     </ul>
                   </div>
                 </div>
-                <div class="f-col-md-4 d-flex">
-                  <div class="c-submenu w-100">
+                <div class="d-flex f-col-md-4">
+                  <div class="w-100 c-submenu">
                     <div class="cs-item" id="submenu-2">
                       <ul>
                         <li>
@@ -809,8 +809,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="f-col-md-5 d-flex">
-                  <div class="c-submenu third-level w-100">
+                <div class="d-flex f-col-md-5">
+                  <div class="w-100 c-submenu third-level">
                     <div class="cs-item" id="sub-submenu-3">
                       <ul>
                         <li class="static">
@@ -2383,7 +2383,7 @@
         </div>
 
         <!-- Sidebar -->
-        <div class="sidebar sidebar-main hidden-xl-up">
+        <div class="hidden-xl-up sidebar sidebar-main">
           <div class="s-backdrop"></div>
           <div class="s-hide hide-sidebar-main">
             <span><i class="ion-ios-close-empty"></i></span>
@@ -2432,14 +2432,14 @@
                     <div class="">
                       <div class="">
                         <div class="m-b-5">
-                          <a href="/s/check" class="btn btn-custom btn-image sidebar-btn flex-grow">
+                          <a href="/s/check" class="flex-grow btn btn-custom btn-image sidebar-btn">
                             <div class="btn-image__text">Статус заказа</div>
                           </a>
                         </div>
                       </div>
                       <div class="">
                         <div class="m-b-5">
-                          <a href="/page/dostavka" class="btn btn-custom btn-image sidebar-btn flex-grow">
+                          <a href="/page/dostavka" class="flex-grow btn btn-custom btn-image sidebar-btn">
                             <div class="btn-image__text">Доставка</div>
                           </a>
                         </div>
@@ -4839,12 +4839,12 @@
         </div>
 
         <!-- Represent -->
-        <div class="container-fluid w-100 m-lg-b-30">
+        <div class="m-lg-b-30 w-100 container-fluid">
           <div class="represent-row">
             <div class="represent-col">
-              <div class="represent main-slider d-flex flex-column w-100">
-                <div class="f-row justify-content-center">
-                  <div class="r-fix-arrow f-col-lg-12 m-t-5 m-lg-t-0">
+              <div class="d-flex flex-column w-100 represent main-slider">
+                <div class="justify-content-center f-row">
+                  <div class="m-lg-t-0 m-t-5 r-fix-arrow f-col-lg-12">
                     <div class="slider-arrow prev"><img src="wwwbackgroundimages/arrow-left.png" /></div>
                     <div class="slider-arrow next"><img src="wwwbackgroundimages/arrow-right.png" /></div>
                     <div class="r-slider rs-main">
@@ -4886,11 +4886,11 @@
         <!-- Products -->
         <div class="products products-home">
           <div class="container-fluid">
-            <div class="d-sm-flex align-items-sm-end justify-content-sm-between m-b-20">
-              <div class="title m-b-10 m-xs-b-0">Спецпредложения</div>
+            <div class="d-sm-flex justify-content-sm-between align-items-sm-end m-b-20">
+              <div class="m-b-10 m-xs-b-0 title">Спецпредложения</div>
             </div>
 
-            <div class="overflow-auto m-b-10">
+            <div class="m-b-10 overflow-auto">
               <ul class="r-tabs">
                 <li class="active">
                   <a href="[data-special-id=1]" data-toggle="tab" data-target-special-id="1">
@@ -4934,7 +4934,7 @@
               <div class="tab-pane active" data-special-id="1">
                 <div class="row row-sm">
                   <div class="items">
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="220273">
                         <a href="/product/220273">
                           <div class="pi-badge" style="background-color: #fa0808">
@@ -4969,14 +4969,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Циклоферон 150мг таблетки покрытые кишечнорастворимой оболочкой №20</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ПОЛИСАН</div>
+                            <div class="text-truncate pi-firm">ПОЛИСАН</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 415,00 руб.</div>
                             </div>
@@ -4984,7 +4984,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="354906">
                         <a href="/product/354906">
                           <div class="pi-badge" style="background-color: #ed1b24">
@@ -5016,14 +5016,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Компливит офтальмо таб.п/об.пл. №60 бад</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ОТИСИФАРМ</div>
+                            <div class="text-truncate pi-firm">ОТИСИФАРМ</div>
                             <div class="pi-prices pi-prices-card">
                               <div class="pi-current">от 328,80 руб.</div>
                               <div class="pi-discounted">
@@ -5034,7 +5034,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="30908">
                         <a href="/product/30908">
                           <object class="favorite-product-container">
@@ -5065,14 +5065,14 @@
                             <div class="pi-title">
                               Тантум верде 0.255мг/доза 30мл спрей для местного применения №1 флакон-дозатор
                             </div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">АНДЖЕЛИНИ</div>
+                            <div class="text-truncate pi-firm">АНДЖЕЛИНИ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 377,00 руб.</div>
                             </div>
@@ -5080,7 +5080,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="356710">
                         <a href="/product/356710">
                           <div class="pi-badge" style="background-color: #ed1b24">
@@ -5112,14 +5112,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Компливит кальций д3 таб.жев. №120 апельсин бад</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ОТИСИФАРМ</div>
+                            <div class="text-truncate pi-firm">ОТИСИФАРМ</div>
                             <div class="pi-prices pi-prices-card">
                               <div class="pi-current">от 859,43 руб.</div>
                               <div class="pi-discounted">
@@ -5130,7 +5130,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="52373">
                         <a href="/product/52373">
                           <div class="pi-badge" style="background-color: #ed1b24">
@@ -5162,14 +5162,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Solgar (Солгар) тройная омега 3 950мг. эпк/дгк капс. №50</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">СОЛГАР</div>
+                            <div class="text-truncate pi-firm">СОЛГАР</div>
                             <div class="pi-prices pi-prices-card">
                               <div class="pi-current">от 2�153,00 руб.</div>
                               <div class="pi-discounted">
@@ -5180,7 +5180,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="24665">
                         <a href="/product/24665">
                           <object class="favorite-product-container">
@@ -5209,14 +5209,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Мастодинон таблетки №60</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">БИОНОРИКА</div>
+                            <div class="text-truncate pi-firm">БИОНОРИКА</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 621,00 руб.</div>
                             </div>
@@ -5224,7 +5224,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="52384">
                         <a href="/product/52384">
                           <div class="pi-badge" style="background-color: #02c723">
@@ -5256,14 +5256,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Solgar (Солгар) эстер-с плюс витамин с 500мг капс. №50</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">СОЛГАР</div>
+                            <div class="text-truncate pi-firm">СОЛГАР</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 1�165,00 руб.</div>
                             </div>
@@ -5271,7 +5271,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="233250">
                         <a href="/product/233250">
                           <div class="pi-badge" style="background-color: #02c723">
@@ -5303,14 +5303,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Корега крем д/фикс. зубных протезов экстра сильный 70г мятный вкус</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ГЛАКСО</div>
+                            <div class="text-truncate pi-firm">ГЛАКСО</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 565,00 руб.</div>
                             </div>
@@ -5318,7 +5318,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="352862">
                         <a href="/product/352862">
                           <div class="pi-badge" style="background-color: #02c723">
@@ -5350,14 +5350,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Ангидак 0,255мг/доза 30мл спрей д/пр.местн. №1 фл.-доз.</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ГРОТЕКС</div>
+                            <div class="text-truncate pi-firm">ГРОТЕКС</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 396,00 руб.</div>
                             </div>
@@ -5365,7 +5365,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="31178">
                         <a href="/product/31178">
                           <object class="favorite-product-container">
@@ -5394,14 +5394,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Тонзилгон н 100мл капли для приёма внутрь №1 флакон-капельница</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">БИОНОРИКА</div>
+                            <div class="text-truncate pi-firm">БИОНОРИКА</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 555,08 руб.</div>
                             </div>
@@ -5409,7 +5409,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="365780">
                         <a href="/product/365780">
                           <div class="pi-badge" style="background-color: #f50af5">
@@ -5441,14 +5441,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Магнерот 500мг таб. №50</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ВЕРВАГ ФАРМА</div>
+                            <div class="text-truncate pi-firm">ВЕРВАГ ФАРМА</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 697,00 руб.</div>
                             </div>
@@ -5456,7 +5456,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="335263">
                         <a href="/product/335263">
                           <div class="pi-badge" style="background-color: #ffd900">
@@ -5488,14 +5488,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Флебодиа 600мг таб.п/об.пл. №60</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ИННОТЕК</div>
+                            <div class="text-truncate pi-firm">ИННОТЕК</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 1�951,00 руб.</div>
                             </div>
@@ -5509,7 +5509,7 @@
               <div class="tab-pane" data-special-id="2">
                 <div class="row row-sm">
                   <div class="items">
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="15663">
                         <a href="/product/15663">
                           <div class="pi-badge" style="background-color: #ed1b24">
@@ -5541,14 +5541,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Бепантен 5% 100г мазь для наружного применения №1 туба</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                             </div>
-                            <div class="pi-firm text-truncate">БАЙЕР</div>
+                            <div class="text-truncate pi-firm">БАЙЕР</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 995,00 руб.</div>
                             </div>
@@ -5556,7 +5556,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="285305">
                         <a href="/product/285305">
                           <object class="favorite-product-container">
@@ -5585,14 +5585,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Librederm baby (либридерм беби) масло детское 150мл д/новорожд младенцев</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ЗЕЛДИС</div>
+                            <div class="text-truncate pi-firm">ЗЕЛДИС</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 334,33 руб.</div>
                             </div>
@@ -5600,7 +5600,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="256913">
                         <a href="/product/256913">
                           <div class="pi-badge" style="background-color: #00a052">
@@ -5632,14 +5632,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Nutrilak (нутрилак) молочная смесь премиум 1 200мл тетра-пак готовая</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ИНФАПРИМ</div>
+                            <div class="text-truncate pi-firm">ИНФАПРИМ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 37,61 руб.</div>
                             </div>
@@ -5647,7 +5647,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="351141">
                         <a href="/product/351141">
                           <object class="favorite-product-container">
@@ -5676,14 +5676,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Атопик гель для купания с головы до пяток 250мл</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">АВАНТА ОАО</div>
+                            <div class="text-truncate pi-firm">АВАНТА ОАО</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 579,38 руб.</div>
                             </div>
@@ -5691,7 +5691,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="361000">
                         <a href="/product/361000">
                           <object class="favorite-product-container">
@@ -5720,14 +5720,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Фабимилк молочная смесь 2 900г</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ИНДАСТРИЛ ДИНСТЕН ХИНО</div>
+                            <div class="text-truncate pi-firm">ИНДАСТРИЛ ДИНСТЕН ХИНО</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 1�429,10 руб.</div>
                             </div>
@@ -5735,7 +5735,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="235257">
                         <a href="/product/235257">
                           <object class="favorite-product-container">
@@ -5766,14 +5766,14 @@
                             <div class="pi-title">
                               Canpol (Канпол) бутылочка для кормления easystart 120мл антиколик. с 0 мес. 35/216
                             </div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">КАНПОЛ</div>
+                            <div class="text-truncate pi-firm">КАНПОЛ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 541,04 руб.</div>
                             </div>
@@ -5781,7 +5781,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="55235">
                         <a href="/product/55235">
                           <object class="favorite-product-container">
@@ -5810,14 +5810,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Heinz (хайнц) каша молочная 170г многозерн. вишня яблоко</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ХАЙНЦ</div>
+                            <div class="text-truncate pi-firm">ХАЙНЦ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 136,80 руб.</div>
                             </div>
@@ -5825,7 +5825,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="55238">
                         <a href="/product/55238">
                           <object class="favorite-product-container">
@@ -5854,14 +5854,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Heinz (Хайнц) каша молочная 200г многозерн. яблоко малина ч.смород.</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ХАЙНЦ</div>
+                            <div class="text-truncate pi-firm">ХАЙНЦ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 208,00 руб.</div>
                             </div>
@@ -5869,7 +5869,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="319742">
                         <a href="/product/319742">
                           <object class="favorite-product-container">
@@ -5898,14 +5898,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Similac (симилак) молочная смесь комфорт 1 750г 0-6 мес.</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ЭББОТТ</div>
+                            <div class="text-truncate pi-firm">ЭББОТТ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 1�671,20 руб.</div>
                             </div>
@@ -5913,7 +5913,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="71248">
                         <a href="/product/71248">
                           <object class="favorite-product-container">
@@ -5942,14 +5942,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Similac (симилак) молочная смесь а/рефлюкс 375г</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ЭББОТТ</div>
+                            <div class="text-truncate pi-firm">ЭББОТТ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 1�058,40 руб.</div>
                             </div>
@@ -5957,7 +5957,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="37824">
                         <a href="/product/37824">
                           <object class="favorite-product-container">
@@ -5986,14 +5986,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Nestle (нестле) каша безмолочная 200г овсянка с 5 мес.</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">НЕСТЛЕ</div>
+                            <div class="text-truncate pi-firm">НЕСТЛЕ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 55,20 руб.</div>
                             </div>
@@ -6001,7 +6001,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="263905">
                         <a href="/product/263905">
                           <div class="pi-badge" style="background-color: #ff9800">
@@ -6033,14 +6033,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Canpol (канпол) молокоотсос ручной basic 12/205</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-colored"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">КАНПОЛ</div>
+                            <div class="text-truncate pi-firm">КАНПОЛ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 2�105,97 руб.</div>
                             </div>
@@ -6048,7 +6048,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="282098">
                         <a href="/product/282098">
                           <object class="favorite-product-container">
@@ -6077,14 +6077,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Nutrilak (нутрилак) молочная смесь премиум 2 200мл тетра-пак готовая</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ИНФАПРИМ</div>
+                            <div class="text-truncate pi-firm">ИНФАПРИМ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 37,61 руб.</div>
                             </div>
@@ -6092,7 +6092,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="284304">
                         <a href="/product/284304">
                           <object class="favorite-product-container">
@@ -6121,14 +6121,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Nutrilak (нутрилак) молочная смесь премиум 3 200мл тетра-пак готовая</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ИНФАПРИМ</div>
+                            <div class="text-truncate pi-firm">ИНФАПРИМ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 33,60 руб.</div>
                             </div>
@@ -6142,7 +6142,7 @@
               <div class="tab-pane" data-special-id="3">
                 <div class="row row-sm">
                   <div class="items">
-                    <div class="col-lg-3 col-md-4 col-xs-6 m-b-15">
+                    <div class="m-b-15 col-lg-3 col-md-4 col-xs-6">
                       <div class="p-item" data-product-id="271190">
                         <a href="/product/271190">
                           <object class="favorite-product-container">
@@ -6171,14 +6171,14 @@
                           </div>
                           <div class="pi-content">
                             <div class="pi-title">Тест-полоски onetouch селект плюс №100</div>
-                            <div class="actual-rate ar-mini clearfix m-b-5">
+                            <div class="m-b-5 actual-rate ar-mini clearfix">
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                               <div class="ar-item ar-empty"></div>
                             </div>
-                            <div class="pi-firm text-truncate">ДЖЕЙТНЛ</div>
+                            <div class="text-truncate pi-firm">ДЖЕЙТНЛ</div>
                             <div class="pi-prices">
                               <div class="pi-current">от 916,51 руб.</div>
                             </div>
@@ -6196,7 +6196,7 @@
         <!-- Categories -->
         <div class="categories">
           <div class="container-fluid">
-            <div class="title m-b-20">Более 30 000 наименований лекарств и препаратов</div>
+            <div class="m-b-20 title">Более 30 000 наименований лекарств и препаратов</div>
             <div class="c-items denominations-items">
               <div class="row">
                 <div class="col-md-6 col-xs-12">
@@ -6343,12 +6343,12 @@
                 <h1 class="title">Аптека «Фармленд» в Уфе</h1>
                 <div class="sub-title">25 лет заботы о вашем здоровье!</div>
               </div>
-              <div class="col-md-4 m-t-20 m-md-t-0"></div>
+              <div class="m-md-t-0 m-t-20 col-md-4"></div>
             </div>
             <div class="row">
               <noindex>
                 <div class="col-md-8">
-                  <p class="sub-text m-b-15" style="text-align: justify">
+                  <p class="m-b-15 sub-text" style="text-align: justify">
                     Аптечная сеть «Фармленд» начала свою деятельность в ноябре 1997 года с открытия небольшой аптеки в городе
                     Мелеузе Республики Башкортостан. Спустя несколько месяцев открылись аптеки в селе Кармаскалы и городе Бирске,
                     а в следующем году первая аптека сети «Фармленд» появилась и в столице республики - городе Уфе. В 2012 году
@@ -6357,16 +6357,16 @@
                     2021 году первые аптеки «Фармленд» появляются в Москве и Московской области.
                     <br />
                   </p>
-                  <p class="sub-text m-b-15" style="text-align: justify">
+                  <p class="m-b-15 sub-text" style="text-align: justify">
                     В настоящее время аптечная сеть «Фармленд» входит в десятку крупнейших аптечных сетей России: 2000 аптек в 10
                     субъектах страны, сплоченный коллектив из 9000 сотрудников и более 3 млрд. руб. налогов, перечисленных в
                     бюджет страны за 2022 год.
                   </p>
                 </div>
               </noindex>
-              <div class="col-md-4 m-t-20 m-md-t-0">
-                <div class="text-center m-t-15 m-sm-t-0">
-                  <a href="/page/mobilnoe-prilozhenie-megi-farmlend" class="m-b-10 d-block m-sm-b-20">
+              <div class="m-md-t-0 m-t-20 col-md-4">
+                <div class="m-sm-t-0 m-t-15 text-center">
+                  <a href="/page/mobilnoe-prilozhenie-megi-farmlend" class="d-block m-b-10 m-sm-b-20">
                     <img src="wwwbackgroundimages/megi-app.jpg" />
                   </a>
                   <a
@@ -6391,7 +6391,7 @@
           <div class="partners__container">
             <div class="container-fluid">
               <div class="partners__body">
-                <div class="title m-b-20 m-md-b-30">Наши партнеры</div>
+                <div class="m-b-20 m-md-b-30 title">Наши партнеры</div>
                 <div class="partners-slider-wrapper">
                   <div class="partners-slider slick-slider">
                     <a href="/" class="partners-slide" target="_blank" rel="nofollow">
@@ -6427,10 +6427,10 @@
           <div class="f-menu">
             <div class="container-fluid">
               <div class="f-row">
-                <div class="f-col-lg-3 f-col-sm-6 m-b-30">
+                <div class="m-b-30 f-col-lg-3 f-col-sm-6">
                   <div class="fm-item">
-                    <div class="fm-title hidden-xs-down">Аптеки</div>
-                    <div class="fm-title hidden-sm-up">
+                    <div class="hidden-xs-down fm-title">Аптеки</div>
+                    <div class="hidden-sm-up fm-title">
                       <a href="#collapse-0" class="collapsed" data-toggle="collapse">Аптеки</a>
                     </div>
                     <ul class="collapse" id="collapse-0">
@@ -6461,10 +6461,10 @@
                     </ul>
                   </div>
                 </div>
-                <div class="f-col-lg-3 f-col-sm-6 m-b-30">
+                <div class="m-b-30 f-col-lg-3 f-col-sm-6">
                   <div class="fm-item">
-                    <div class="fm-title hidden-xs-down">Актуальное</div>
-                    <div class="fm-title hidden-sm-up">
+                    <div class="hidden-xs-down fm-title">Актуальное</div>
+                    <div class="hidden-sm-up fm-title">
                       <a href="#collapse-1" class="collapsed" data-toggle="collapse">Актуальное</a>
                     </div>
                     <ul class="collapse" id="collapse-1">
@@ -6500,10 +6500,10 @@
                     </ul>
                   </div>
                 </div>
-                <div class="f-col-lg-3 f-col-sm-6 m-b-30">
+                <div class="m-b-30 f-col-lg-3 f-col-sm-6">
                   <div class="fm-item">
-                    <div class="fm-title hidden-xs-down">Услуги</div>
-                    <div class="fm-title hidden-sm-up">
+                    <div class="hidden-xs-down fm-title">Услуги</div>
+                    <div class="hidden-sm-up fm-title">
                       <a href="#collapse-2" class="collapsed" data-toggle="collapse">Услуги</a>
                     </div>
                     <ul class="collapse" id="collapse-2">
@@ -6525,10 +6525,10 @@
                     </ul>
                   </div>
                 </div>
-                <div class="f-col-lg-3 f-col-sm-6 m-b-30">
+                <div class="m-b-30 f-col-lg-3 f-col-sm-6">
                   <div class="fm-item">
-                    <div class="fm-title hidden-xs-down">О компании</div>
-                    <div class="fm-title hidden-sm-up">
+                    <div class="hidden-xs-down fm-title">О компании</div>
+                    <div class="hidden-sm-up fm-title">
                       <a href="#collapse-3" class="collapsed" data-toggle="collapse">О компании</a>
                     </div>
                     <ul class="collapse" id="collapse-3">
@@ -6569,7 +6569,7 @@
               <div class="row">
                 <div class="col-md-8">
                   <div class="row">
-                    <div class="col-sm-6 m-b-30">
+                    <div class="m-b-30 col-sm-6">
                       <div class="f-contacts">
                         <div class="d-flex m-b-15">
                           <div class="short-phone short-phone-small-special">
@@ -6626,7 +6626,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 m-b-30">
+                    <div class="m-b-30 col-sm-6">
                       <div class="social-links clearfix">
                         <div class="sl-title">Будьте в курсе новых акций и скидок!</div>
                         <a
@@ -6655,7 +6655,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 m-b-30">
+                <div class="m-b-30 col-md-4">
                   <div class="f-license">
                     Все услуги, требующие лицензирования, лицензированы, все товары, подлежащие обязательной сертификации
                     (декларированию), сертифицированы (задекларированы). Имеются противопоказания, проконсультируйтесь со
@@ -6666,15 +6666,15 @@
             </div>
           </div>
           <div class="f-copyright">
-            <div class="container-fluid position-relative p-y-15">
-              <span class="fb-item m-x-15 m-sm-l-0">© 1997-2026 Аптечная сеть «Фармленд»</span>
-              <span class="fb-item m-x-15 m-sm-l-0">
+            <div class="position-relative p-y-15 container-fluid">
+              <span class="m-sm-l-0 m-x-15 fb-item">© 1997-2026 Аптечная сеть «Фармленд»</span>
+              <span class="m-sm-l-0 m-x-15 fb-item">
                 <a href="https://red-promo.ru" target="_blank" class="link link-3">Создание сайта</a>
                 - Red Promo
               </span>
               <div class="p-t-15">
-                <div class="f-row m-n-b-10">
-                  <div class="f-col-md-6 m-b-10">
+                <div class="m-n-b-10 f-row">
+                  <div class="m-b-10 f-col-md-6">
                     <div class="f-license-small">
                       Лицензия №: ЛО–02-02-002470 от 28 марта 2017г. -
                       <a target="_blank" download="" href="/documents/license_AO_Fl.PDF">СКАЧАТЬ</a>
@@ -6771,21 +6771,21 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                   <i class="ion-ios-close-empty"></i>
                 </button>
-                <div class="ma-img bg-img-contain" style="background-image: url(wwwbackgroundimages/modal-browser.svg)"></div>
+                <div class="bg-img-contain ma-img" style="background-image: url(wwwbackgroundimages/modal-browser.svg)"></div>
                 <div class="modal-title" id="modalAlertLabel">
                   При переключении способа доставки, корзина с товарами будет очищена
                 </div>
               </div>
               <div class="modal-body">
-                <div class="f-row m-n-b-10">
-                  <div class="f-col-sm-6 m-b-10">
-                    <div class="btn btn-lg btn-default w-100" data-dismiss="modal">Отмена</div>
+                <div class="m-n-b-10 f-row">
+                  <div class="m-b-10 f-col-sm-6">
+                    <div class="w-100 btn btn-lg btn-default" data-dismiss="modal">Отмена</div>
                   </div>
-                  <div class="f-col-sm-6 m-b-10">
+                  <div class="m-b-10 f-col-sm-6">
                     <a
                       href="#modal-delivery"
                       data-toggle="modal"
-                      class="modal-dismiss btn btn-lg btn-danger w-100 modal-alert-link"
+                      class="w-100 modal-dismiss btn btn-lg btn-danger modal-alert-link"
                       data-city="ufa"
                     >
                       Очистить корзину
@@ -6817,8 +6817,8 @@
                 </div>
               </div>
               <div class="modal-body">
-                <div class="f-row m-n-b-10">
-                  <div class="f-col-sm-12 m-b-12 text-center">
+                <div class="m-n-b-10 f-row">
+                  <div class="m-b-12 text-center f-col-sm-12">
                     <div class="btn btn-lg btn-default" data-dismiss="modal">Понятно</div>
                   </div>
                 </div>
@@ -6841,8 +6841,8 @@
                   Аптечная сеть "Юнифарма" стала частью федеральной аптечной сети "Фармленд". Вы можете все так же бронировать
                   товар в привычных Вам аптеках, по старым адресам.
                 </p>
-                <div class="f-row m-n-b-10">
-                  <div class="f-col-sm-12 m-b-12 text-center">
+                <div class="m-n-b-10 f-row">
+                  <div class="m-b-12 text-center f-col-sm-12">
                     <div class="btn btn-lg btn-default" data-dismiss="modal">К бронированию</div>
                   </div>
                 </div>
