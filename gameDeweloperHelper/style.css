@@ -160,6 +160,14 @@
   position: relative;
 }
 
+@keyframes slide-loader-spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 .modal-game__container img {
   content-visibility: auto;
 }
@@ -324,6 +332,7 @@
 .modal-game__container .slide__bg {
   position: absolute;
   inset: 0;
+  z-index: 0;
   overflow: hidden;
 }
 .modal-game__container .slide__bg img, .modal-game__container .slide__bg video, .modal-game__container .slide__bg picture {
@@ -340,6 +349,7 @@
 }
 .modal-game__container .slide__bg:has(video)::after {
   position: absolute;
+  z-index: 2;
   bottom: 0;
   left: 0;
   right: 0;
@@ -348,6 +358,47 @@
   content: "";
   width: 100%;
   display: block;
+}
+.modal-game__container .slide__video-cover {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.modal-game__container .slide__video-cover--hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal-game__container .slide__video-cover--hidden .slide__loader {
+  animation: none;
+}
+.modal-game__container .slide__loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  width: calc(50 * 100vw / var(--wiepotrDeviseWith));
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: calc(4 * 100vw / var(--wiepotrDeviseWith)) solid rgba(255, 255, 255, 0.28);
+  border-top-color: #fff;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 calc(8 * 100vw / var(--wiepotrDeviseWith)) rgba(0, 0, 0, 0.55));
+  animation: slide-loader-spin 0.75s linear infinite;
+}
+@media (max-width: 48em) {
+  .modal-game__container .slide__loader {
+    width: calc(25 * 100vw / var(--wiepotrDeviseWith));
+  }
+}
+.modal-game__container .slide__loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+  animation: none;
+}
+.modal-game__container .slide:not(.slide--active) .slide__loader {
+  animation-play-state: paused;
 }
 .modal-game__container .slide__content {
   display: flex;

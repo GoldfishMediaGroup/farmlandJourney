@@ -171,6 +171,15 @@
   }
 }
 
+@keyframes slide-loader-spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
 .modal-game__container {
   & img {
     content-visibility: auto;
@@ -337,6 +346,7 @@
     &__bg {
       position: absolute;
       inset: 0;
+      z-index: 0;
       overflow: hidden;
 
       & img,
@@ -354,6 +364,7 @@
       &:has(video) {
         &::after {
           position: absolute;
+          z-index: 2;
           bottom: 0;
           left: 0;
           right: 0;
@@ -366,6 +377,50 @@
           display: block;
         }
       }
+    }
+
+    &__video-cover {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+
+      &--hidden {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+        .slide__loader {
+          animation: none;
+        }
+      }
+    }
+
+    &__loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1000;
+      width: pxToRemMix(50);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: pxToRemMix(4) solid rgba(255, 255, 255, 0.28);
+      border-top-color: #fff;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(0 0 pxToRemMix(8) rgba(0, 0, 0, 0.55));
+      animation: slide-loader-spin 0.75s linear infinite;
+      @include small-tablet {
+        width: pxToRemMix(25);
+      }
+      &--hidden {
+        opacity: 0;
+        visibility: hidden;
+        animation: none;
+      }
+    }
+
+    &:not(.slide--active) .slide__loader {
+      animation-play-state: paused;
     }
 
     &__content {
