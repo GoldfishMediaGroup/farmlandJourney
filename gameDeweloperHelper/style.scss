@@ -517,6 +517,8 @@
 
       @include small-tablet {
         font-size: pxToRemMix(7);
+        margin: 0 20px 0 80px;
+        text-align: center;
       }
       &--abs {
         position: absolute;
@@ -526,6 +528,8 @@
         @include small-tablet {
           bottom: pxToRemMix(12);
           left: pxToRemMix(18);
+          margin: 0;
+          text-align: left;
         }
       }
     }
