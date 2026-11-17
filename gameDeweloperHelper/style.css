@@ -386,6 +386,7 @@
   gap: calc(20 * 100vw / var(--wiepotrDeviseWith));
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 .modal-game__container .slide__text {
   margin: 0;
